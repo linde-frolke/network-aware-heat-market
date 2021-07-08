@@ -11,7 +11,7 @@ Before you run the scripts, make sure you have the needed packages installed. Th
 
 ## File structure
 The _scripts_ folder contains
-1. ==load\_parameters.jl==: A script for loading the needed inputs.
+1. ```load\_parameters.jl```: A script for loading the needed inputs.
 This script also calls **load\_prosumer\_parameters.jl**.
 2. **run\_markets.jl**: A script for running the optimal dispatch based on these inputs.
 3. _postprocess\_results.jl_: A script for postprocessing the optimal dispatch results.
