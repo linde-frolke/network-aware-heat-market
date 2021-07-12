@@ -6,6 +6,10 @@ This repository supports the article _A network-aware market mechanism for decen
    reproduced using this repository.
 
 ## Getting started
+The Gurobi solver is used in the package. You can change the used solver to a free one, see for 
+example the possible solvers [here](https://jump.dev/JuMP.jl/stable/installation/#Supported-solvers).
+Otherwise, install the Gurobi solver. Instructions can be found [here](https://github.com/jump-dev/Gurobi.jl). 
+
 Before you run the scripts, make sure you have the needed packages installed. The script
  ```make_environment.jl``` lists which packages you need, and helps you to create an environment
  first, if you want that.
